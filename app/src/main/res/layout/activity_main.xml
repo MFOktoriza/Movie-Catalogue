@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.vedici.moviecatalogue.ui.MainActivity">
+
+	<android.support.design.widget.TabLayout
+		android:id="@+id/page_tab_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/colorSecondary"
+		app:tabSelectedTextColor="#ffffff"
+		app:tabTextColor="#4c4c4c"
+		app:tabGravity="fill"
+		app:tabMode="fixed" />
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/fragment_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		app:layout_constraintTop_toBottomOf="@+id/page_tab_layout"
+		tools:listitem="@layout/fragment_now_playing" />
+
+</android.support.constraint.ConstraintLayout>

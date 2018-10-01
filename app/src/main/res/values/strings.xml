@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Movie Catalogue</string>
+	<string name="movie_poster">Movie Poster</string>
+	<string name="view_detail">View Detail</string>
+	<string name="view_poster">View Poster</string>
+	<string name="search">Search</string>
+
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="title_activity_movie_detail" translatable="false">MovieDetailActivity</string>
+	<string name="movie_backdrop">Movie Backdrop</string>
+	<string name="vote_average">Vote Average :</string>
+	<string name="vote_count">Vote Count :</string>
+	<string name="original_language">Original Language :</string>
+	<string name="release_date">Release Date :</string>
+	<string name="overview">Synopsis</string>
+	<string name="change_language">Change Language</string>
+	<string name="search_movie">Search Movie</string>
+	<string name="search_button" translatable="false">Search Button</string>
+	<string name="now_playing">Now Playing</string>
+	<string name="upcoming">Upcoming Movie</string>
+</resources>

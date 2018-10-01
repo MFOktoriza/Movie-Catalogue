@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Katalog Film</string>
+	<string name="movie_poster">Poster Film</string>
+	<string name="view_detail">Lihat Detail</string>
+	<string name="view_poster">Lihat Poster</string>
+	<string name="search">Cari</string>
+
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="title_activity_movie_detail">MovieDetailActivity</string>
+	<string name="movie_backdrop">Backdrop Film</string>
+	<string name="vote_average">Rata-rata Suara :</string>
+	<string name="vote_count">Banyak Suara :</string>
+	<string name="original_language">Bahasa Asli :</string>
+	<string name="release_date">Tanggal Release :</string>
+	<string name="overview">Sinopsis</string>
+	<string name="change_language">Ganti Bahasa</string>
+	<string name="search_movie">Cari Film</string>
+	<string name="search_button">Search Button</string>
+	<string name="now_playing">Sedang Diputar</string>
+	<string name="upcoming">Film Mendatang</string>
+</resources>
